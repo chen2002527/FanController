@@ -1,0 +1,17 @@
+# STM32CubeMX 預設規則 (保留)
+build
+mx.scratch
+!.settings
+
+# 額外防呆：忽略其他編譯資料夾與二進位檔
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.map
+*.hex
+*.bin
+
+# 忽略 VS Code C/C++ 插件產生的本地暫存資料庫
+.vscode/.browse.c_cpp.db*
